@@ -5,8 +5,7 @@ const MealsSummary = () => {
     <section className={classes.summary}>
       <h2>Food, Delivered To You, Even at Night</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals{" "}
-        <br />
+        Choose your favorite meal from our broad selection of available meals
         and enjoy a delicious at 24*7 Around the clock.
       </p>
       <p>
