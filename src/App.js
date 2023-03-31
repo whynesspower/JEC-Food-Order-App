@@ -1,21 +1,25 @@
-import { useState } from "react";
-import Cart from "./components/Cart/Cart";
-import Header from "./components/Layout/Header";
-import Meals from "./components/Meals/Meals";
-import CartProvider from "./store/CartProvider";
+import { useState } from 'react';
+
+import Header from './components/Layout/Header';
+import Meals from './components/Meals/Meals';
+import Cart from './components/Cart/Cart';
+import CartProvider from './store/CartProvider';
 
 function App() {
-  const [cartIsShow, setCartIsShown] = useState(false);
+  const [cartIsShown, setCartIsShown] = useState(false);
+
   const showCartHandler = () => {
     setCartIsShown(true);
   };
+
   const hideCartHandler = () => {
     setCartIsShown(false);
   };
+
   return (
     <CartProvider>
-      {cartIsShow && <Cart onCloseCart={hideCartHandler} />}
-      <Header onShowCart={showCartHandler}></Header>
+      {cartIsShown && <Cart onClose={hideCartHandler} />}
+      <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
       </main>
@@ -24,6 +28,3 @@ function App() {
 }
 
 export default App;
-
-// now we are adding, cart state using useReducer to manage the elements which are
-// used to update cart by adding or removing items
