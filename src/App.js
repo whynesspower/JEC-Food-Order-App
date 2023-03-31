@@ -24,3 +24,6 @@ function App() {
 }
 
 export default App;
+
+// now we are adding, cart state using useReducer to manage the elements which are
+// used to update cart by adding or removing items
