@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Food Order
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of contents
 
-## Available Scripts
+- [About The App](#about-the-app)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+  - [Clone repo](#clone-repo)
+  - [Install packages](#install-packages)
+  - [Run app](#run-app)
+  - [Build](#build)
+- [Demo](#demo)
 
-In the project directory, you can run:
+# About The App
 
-### `npm start`
+The project was created while attending the [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) created by Maximilian Schwarzmüller. The project was created to practice the basic [React](https://reactjs.org/) functionalities presented in the course and practice working with [Firebase](https://firebase.google.com/).
+It is a simple application that allows you to order specific meals with home delivery.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features:
+- Add a certain number of dishes to the cart
+- Delete meals from a cart
+- Enter the data in the delivery form
 
-### `npm test`
+# Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/106964401/226912636-1e12baac-239a-4903-89b4-b118709de754.png)
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/106964401/226913042-8ddb15c1-c05b-4724-bdaa-3ffe9ee86b96.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Technologies
 
-### `npm run eject`
+Technologies used to build this application:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JvaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Libraries used to build this application:
 
-## Learn More
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/food-order/react)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Setup
 
-### Code Splitting
+Below you find all scripts to clone, run and build this application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Clone repo
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/KingaMiroslaw/food-order.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Install packages
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Run app
 
-### Advanced Configuration
+First, run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run start
+```
 
-### Deployment
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Build
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Demo
+
+[See DEMO](https://kingamiroslaw.github.io/food-order/)
