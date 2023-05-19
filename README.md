@@ -13,8 +13,6 @@
 - [Demo](#demo)
 
 # About The App
-
-The project was created while attending the [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) created by Maximilian Schwarzmüller. The project was created to practice the basic [React](https://reactjs.org/) functionalities presented in the course and practice working with [Firebase](https://firebase.google.com/).
 It is a simple application that allows you to order specific meals with home delivery.
 
 
